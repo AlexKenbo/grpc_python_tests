@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service YourService {
+  rpc UnaryCall (Request) returns (Response);
+  rpc StreamCall (Request) returns (stream Response);
+}
+
+message Request {
+  string message = 1;
+}
+
+message Response {
+  string message = 1;
+}

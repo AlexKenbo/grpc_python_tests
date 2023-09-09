@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Server",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/server.py",
+        },
+        {
+            "name": "Python: Client",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/client.py",
+        }
+    ],
+}
